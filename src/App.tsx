@@ -73,7 +73,7 @@ function App() {
                 <div className="fontes-img">
                     <img src="img/estrela2m-sem.png" alt="" className="estrela2m-sem" />
                     <img src="vite.svg" alt="" className="vite" />
-                    <img src="casal-sem.png" alt="" className="casal" />
+                    <img src="casal.png" alt="" className="casal" />
                 </div>
 
                 <div className="marcas">

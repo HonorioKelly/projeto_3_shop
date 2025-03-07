@@ -221,8 +221,8 @@
   
   .casal {
     position: absolute;
-    top: -17px; /* Ajusta a posição vertical */
-    left: 153%; /* Centraliza horizontalmente */
+    top: 250px; /* Ajusta a posição vertical */
+    left: 34px; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Garante que a imagem do casal fique centralizada */
     width: 500px; /* Define o tamanho da imagem do casal */
   
