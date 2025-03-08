@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './NavBar.css';
 import carrinho from './assets/carrinho.jpeg'
 import lupa from './assets/lupa.jpeg'
