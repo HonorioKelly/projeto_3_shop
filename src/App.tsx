@@ -1,45 +1,20 @@
 
 import './App.css'
+import FistCompo from './componentes/FistCompo';
+import NavBar from './componentes/NavBar';
+
+import casal from "./assets/casal.png"
+import estrela1 from "./assets/estrela1.png"
+
 
 function App() {
  
 
-  return (
-
-
-        <div className="homepage-container">
-            {/* Banner Promocional */}
-            <div className="banner-promo">
-                <div className="banner-texto">
-                    <span>Sign up and get 20% off to your first order.</span>
-                    <span className="sign-up-now">Sign Up Now</span>
-                </div>
-            </div>
-
-            {/* Navbar */}
-            <div className="navbar">
-                <button className="menu-toggle">☰</button>
-                <b className="logo">SHOP.CO</b>
-
-                <div className="nav-menu">
-                    <a href="#" className="nav-link">Shop</a>
-                    <a href="#" className="nav-link">On Sale</a>
-                    <a href="#" className="nav-link">New Arrivals</a>
-                    <a href="#" className="nav-link">Brands</a>
-                </div>
-
-                <div className="search-container">
-                    <img src="img/lupa.jpeg" alt="Search Icon" className="lupa" />
-                    <input type="text" placeholder="Search for products..." className="search-input" />
-                </div>
-
-                <div className="icon-container">
-                    <img src="img/carrinho.jpeg" alt="Cart Icon" className="carrinho" />
-                    <img src="img/perfil.jpeg" alt="Profile Icon" className="perfil" />
-                </div>
-            </div>
-
-            {/* Título Principal */}
+  return   (
+   <div>
+        <div className="body-container">
+            <FistCompo/>
+            <NavBar/>
             <div className="homepage">
                 <b id="titulo-principal" className="titulo-principal">
                     FIND CLOTHES<br />THAT MATCHES<br />YOUR STYLE
@@ -50,7 +25,7 @@ function App() {
                 </div>
 
                 <div className="shop-now-wrapper">
-                    <button type='button'>Shop Now</button>
+                    <button>Shop Now</button>
                 </div>
 
                 {/* Números */}
@@ -72,8 +47,8 @@ function App() {
                 {/* Imagens e Marcas */}
                 <div className="fontes-img">
                     <img src="img/estrela2m-sem.png" alt="" className="estrela2m-sem" />
-                    <img src="vite.svg" alt="" className="vite" />
-                    <img src="public/casal-sem.png" alt="" className="casal" />
+                    <img src= {estrela1} alt="" className="estrela1-sem" />
+                    <img src= {casal} alt="" className="casal" />
                 </div>
 
                 <div className="marcas">
@@ -83,13 +58,11 @@ function App() {
                     <img className="prada" src="img/prada.logo-Photoroom.png" alt="" />
                     <img className="calvin" src="img/calvin-klein.logo-Photoroom.png" alt="" />
                 </div>
-
-                
             </div>
         </div>
-    );
+    </div>
+
+    );   
 }
 
-
-
-export default App
+export default App;
