@@ -77,9 +77,9 @@ width: 580px; /* Define o tamanho da imagem do casal */
 .estrela2m-sem {
 display: flex;
 position: absolute;
-top: -600px; /* Ajusta a posição vertical */
+top: -280px; /* Ajusta a posição vertical */
 width: 50px; /* Define o tamanho da estrela menor */
-left: calc(50% + 50px);
+left: calc(50% + 85px);
 }
 
 .estrela1-sem {
@@ -175,42 +175,42 @@ width: 90px; /* Define o tamanho da estrela maior */
   
   position: relative;
   border-radius: 10px;
-  height: 45px;
-  padding: 5px;
+  height: 150px;
+  padding: 18px;
   
 }
 .versace {
   position: relative;
-  left: calc(50% - 796px);
-  width: 500px;
-  top: 50px;
+  left: calc(50% - 747px);
+  width: 406px;
+  top: -18px;
   
 }
 
 .zara {
   position: relative;
-  left: calc(50% - 873px);
-  width: 150px;
-  top: 50px;
+  left: calc(50% - 818px);
+  width: 167px;
+  top: -18px;
 }
 
 .gucci {
   position: relative;
-  left: calc(50% - 861px);
-  width: 255px;
-  top: 50px;
+  left: calc(50% - 850px);
+  width: 250px;
+  top: -18px;
 }
   
 .prada {
   position: relative;
   left: calc(50% - 850px);
   width: 250px;
-  top: 50px;
+  top: -18px;
 }
 
 .calvin {
   position: relative;
   left: calc(50% + 351px);
-  width: 350px;
-  top: -10px;
+  width: 359px;
+  top: -208px;
 }

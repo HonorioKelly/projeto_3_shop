@@ -1,0 +1,118 @@
+.new-arrivals {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: -390px;
+    
+    }
+    
+    .new-arrivals h1 {
+    font-size: 4.5rem !important;
+    margin-bottom: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    }
+    
+    .top-selling {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 125px;
+    }
+    
+    .top-selling h1 {
+    position: relative;
+    left: -11px;
+    font-size: 4.5rem !important;
+    margin-bottom: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+    
+    .produtos-link {
+    display: block;
+    }
+    .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+    }
+    
+    .product-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    }
+    
+    .product-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    }
+    
+    .product-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: 600;
+    
+    }
+    
+    .rating {
+    font-size: 1.5rem;
+    color: #ffa500;
+    }
+    
+    .rating span {
+    color: #333;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    }
+    
+    .price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+    }
+    
+    .old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 5px;
+    font-size: 2rem;
+    }
+    
+    .discount {
+    color: red;
+    font-size: 1.6rem;
+    }
+    
+    .view-all {
+      display: flex;
+      justify-content: center;
+      width: 20%; /* Largura total no mobile */
+      max-width: 50%; /* Limite de largura no desktop */
+      background-color: rgb(247, 247, 247); /* Fundo preto */
+      color: rgb(0, 0, 0); /* Texto branco */
+      padding: 15px 30px; /* Espaçamento interno do botão */
+      border: groove; /* Remove a borda padrão */
+      border-radius: 150px; /* Bordas arredondadas para criar o efeito oval */
+      font-size: 20px !important; /* Tamanho da fonte */
+      font-family:'Courier New', Courier, monospace; /* Escolha uma fonte clean */
+      cursor: pointer; /* Adiciona o cursor de mão ao passar sobre o botão */
+      transition: transform 0.2s, background-color 0.2s; /* Animações suaves */
+      position: relative;
+      top: 100px;
+      left: calc(50% - 180px);
+    
+    }
+    
+    .view-all:hover {
+    background: #333;
+    }
+    

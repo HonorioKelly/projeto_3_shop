@@ -2,9 +2,18 @@
 import './App.css'
 import FistCompo from './componentes/FistCompo';
 import NavBar from './componentes/NavBar';
+import New from './componentes/new-arrival/New';
+import Customers from './componentes/avaliaçoes/Customers';
 
 import casal from "./assets/casal.png"
 import estrela1 from "./assets/estrela1.png"
+import estrela2m from "./assets/estrela2m-sem.png"
+
+import versace from "./assets/versace.jpg"
+import zara from "./assets/zara.jpg"
+import gucci from "./assets/gucci.jpg"
+import prada from "./assets/prada.jpg"
+import calvin from "./assets/calvin.jpg"
 
 
 function App() {
@@ -15,6 +24,7 @@ function App() {
         <div className="body-container">
             <FistCompo/>
             <NavBar/>
+            
             <div className="homepage">
                 <b id="titulo-principal" className="titulo-principal">
                     FIND CLOTHES<br />THAT MATCHES<br />YOUR STYLE
@@ -46,19 +56,22 @@ function App() {
 
                 {/* Imagens e Marcas */}
                 <div className="fontes-img">
-                    <img src="img/estrela2m-sem.png" alt="" className="estrela2m-sem" />
+                    <img src= {estrela2m} alt="" className="estrela2m-sem" />
                     <img src= {estrela1} alt="" className="estrela1-sem" />
                     <img src= {casal} alt="" className="casal" />
                 </div>
-
+                    
                 <div className="marcas">
-                    <img className="versace" src="img/versace-sem.png" alt="" />
-                    <img className="zara" src="img/zara.logo1-Photoroom.png" alt="" />
-                    <img className="gucci" src="img/gucci.logo-Photoroom.png" alt="" />
-                    <img className="prada" src="img/prada.logo-Photoroom.png" alt="" />
-                    <img className="calvin" src="img/calvin-klein.logo-Photoroom.png" alt="" />
+                    <img src= {versace} alt="" className="versace" />
+                    <img src= {zara} alt="" className="zara" />
+                    <img src= {gucci} alt="" className="gucci" />
+                    <img src= {prada} alt="" className="prada" />
+                    <img src= {calvin} alt="" className="calvin" />
+                    
                 </div>
             </div>
+            <New/>
+            <Customers/>
         </div>
     </div>
 
