@@ -28,8 +28,8 @@ const New = () => {
                     <img src= {calca} alt="Skinny Fit Jeans" />
                     <h3>Skinny Fit Jeans</h3>
                     <div className="rating">★★★☆☆ <span>3.5/5</span></div>
-                    <p className="price">
-                        <span className="old-price">$260</span> $240 <span className="discount">-20%</span>
+                    <p className="price"> $240
+                        <span className="old-price">$260</span><span className="discount">-20%</span>
                     </p>
                 </div>
 
@@ -47,8 +47,8 @@ const New = () => {
                         <img src= {camisa2} alt="Sleeve Striped T-shirt" />
                         <h3>Sleeve Striped T-shirt</h3>
                         <div className="rating">★★★★☆ <span>4.5/5</span></div>
-                        <p className="price">
-                            <span className="old-price">$160</span> $130 <span className="discount">-30%</span>
+                        <p className="price"> $130
+                            <span className="old-price">$160</span> <span className="discount">-30%</span>
                         </p>
                     </div>
                 </div>
@@ -57,40 +57,41 @@ const New = () => {
             <button className="view-all">View All</button>
 
             <section className="top-selling">
-            <h1>NEW ARRIVALS</h1>
+            <h1>TOP SELLING</h1>
             <div className="products">
                 <div className="product-card">
                     <img src= {vertical} alt="Vertical Striped Shirt" />
-                    <h3>T-shirt with Tape Details</h3>
+                    <h3>Vertical Striped Shirt</h3>
                     <div className="rating">★★★★☆ <span>4.5/5</span></div>
-                    <p className="price">$120</p>
+                    <p className="price">$212</p>
+                    <span className="old-price">$232</span> <span className="discount">-30%</span>
                 </div>
 
                 <div className="product-card">
                     <img src= {courage} alt="Courage Graphic T-shirt" />
-                    <h3>Skinny Fit Jeans</h3>
-                    <div className="rating">★★★☆☆ <span>3.5/5</span></div>
-                    <p className="price">
-                        <span className="old-price">$260</span> $240 <span className="discount">-20%</span>
+                    <h3>Courage Graphic T-shirt</h3>
+                    <div className="rating">★★★★ <span>4.0/5</span></div>
+                    <p className="price">145
+                        
                     </p>
                 </div>
 
                 <div className="produtos-link">
                     <div className="product-card">
                         <img src= {loose} alt="Loose Fit Bermuda Shorts" />
-                        <h3>Checkered Shirt</h3>
-                        <div className="rating">★★★★☆ <span>4.5/5</span></div>
-                        <p className="price">$180</p>
+                        <h3>Loose Fit Bermuda Shorts</h3>
+                        <div className="rating">★★★ <span>3.0/5</span></div>
+                        <p className="price">$80</p>
                     </div>
                 </div>
 
                 <div className="produtos-link">
                     <div className="product-card">
                         <img src= {faded} alt="Faded Skinny Jeans" />
-                        <h3>Sleeve Striped T-shirt</h3>
+                        <h3>Faded Skinny Jeans</h3>
                         <div className="rating">★★★★☆ <span>4.5/5</span></div>
-                        <p className="price">
-                            <span className="old-price">$160</span> $130 <span className="discount">-30%</span>
+                        <p className="price"> $210
+                            
                         </p>
                     </div>
                 </div>

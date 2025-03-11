@@ -4,6 +4,8 @@ import FistCompo from './componentes/FistCompo';
 import NavBar from './componentes/NavBar';
 import New from './componentes/new-arrival/New';
 import Customers from './componentes/avaliaçoes/Customers';
+import Browse from './componentes/browse/Browse';
+import Creditos from './componentes/creditos/Creditos';
 
 import casal from "./assets/casal.png"
 import estrela1 from "./assets/estrela1.png"
@@ -14,6 +16,7 @@ import zara from "./assets/zara.jpg"
 import gucci from "./assets/gucci.jpg"
 import prada from "./assets/prada.jpg"
 import calvin from "./assets/calvin.jpg"
+
 
 
 function App() {
@@ -71,7 +74,9 @@ function App() {
                 </div>
             </div>
             <New/>
+            <Browse/>
             <Customers/>
+            <Creditos/>
         </div>
     </div>
 
