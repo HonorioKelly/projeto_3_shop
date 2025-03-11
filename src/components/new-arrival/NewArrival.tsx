@@ -1,3 +1,5 @@
+import React from 'react'
+
 import './New.css'
 
 import camisa from "./assets/camisa.png"
@@ -11,7 +13,7 @@ import loose from "./assets/loose.png"
 import faded from "./assets/faded.png"
 
 
-const New = () => {
+const NewArrival: React.FC = () => {
   return (
     <div>                {/* New Arrivals */}
         <section className="new-arrivals">
@@ -104,4 +106,4 @@ const New = () => {
   )
 }
 
-export default New
+export default NewArrival
